@@ -1,0 +1,21 @@
+CPF,Nome,Endereco,CEP,Email,Telefones
+111.111.111-12,Joao Silva,Rua das Palmeiras,12345678,joao@exemplo.com,999999999
+222.222.222-23,Maria Oliveira,Avenida Brasil,23456789,maria@exemplo.com,988888888
+333.333.333-34,Carlos Souza,Rua das Flores,34567890,carlos@exemplo.com,977777777
+444.444.444-45,Ana Costa,Travessa Central,45678901,ana@exemplo.com,966666666
+555.555.555-56,Lucas Pereira,Praca da Liberdade,56789012,lucas@exemplo.com,955555555
+666.666.666-67,Juliana Santos,Estrada Verde,67890123,juliana@exemplo.com,944444444
+777.777.777-78,Marcos Almeida,Rua do Sol,78901234,marcos@exemplo.com,933333333
+888.888.888-89,Larissa Lima,Avenida Paulista,89012345,larissa@exemplo.com,922222222
+999.999.999-91,Fernando Ribeiro,Rua da Praia,90123456,fernando@exemplo.com,911111111
+000.000.000-02,Beatriz Martins,Rua das Estrelas,01234567,beatriz@exemplo.com,900000000
+111.222.333-44,Gustavo Rocha,Av. das Palmeiras,12345678,gustavo@exemplo.com,999000000
+222.333.444-55,Isabela Duarte,Rua do Mar,23456789,isabela@exemplo.com,988777777
+333.444.555-66,Ricardo Ferreira,Travessa da Luz,34567890,ricardo@exemplo.com,977666666
+444.555.666-77,Sandra Mendes,Rua do Sol,45678901,sandra@exemplo.com,966555555
+555.666.777-88,Victor Pereira,Rua do Campo,56789012,victor@exemplo.com,955444444
+666.777.888-99,Paula Gomes,Av. das Nações,67890123,paula@exemplo.com,944333333
+777.888.999-00,Rafael Alves,Praca Central,78901234,rafael@exemplo.com,933222222
+888.999.000-11,Clara Martins,Rua da Colina,89012345,clara@exemplo.com,922111111
+999.000.111-22,Fabio Costa,Avenida Rio,90123456,fabio@exemplo.com,911000000
+999.000.111-23,Ricardo Almeida,Avenida Paulista,90123446,ricardo@exemplo.com,911000012
