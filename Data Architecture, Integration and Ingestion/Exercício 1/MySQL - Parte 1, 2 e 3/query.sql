@@ -1,3 +1,10 @@
+-- Alunos:
+-- RM357067 - Edinaldo Rodrigues de Oliveira Junior
+-- RM358158 - Henrique Cardoso
+-- RM358067 - Jefferson de Souza Santos
+-- RM357344 - Walace Vinicius Silva dos Santos
+
+-- CONFIGURACAO DO AMBIENTE
 -- docker run --name MySQL -it ivangancev/ubuntusql:latest bash
 -- apt install mysql-server
 -- service mysql start 
