@@ -29,7 +29,7 @@ Este repositório contém os scripts e evidências do exercício desenvolvido pa
 - **`script.js`**:
   - Criação e manipulação de coleções no **MongoDB**.
 - **CSV**:
-  - Arquivos para carga de dados gerados na Parte 3 (não enviados, mas simulados no script MySQL).
+  - Arquivos para carga de dados gerados na Parte 3.
 
 ## Execução dos Scripts
 
