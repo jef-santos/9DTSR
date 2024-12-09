@@ -1,0 +1,1001 @@
+CustomerID,Age,Gender,Country,Income,ProductCategory,PurchaseAmount,MaritalStatus,EducationLevel,EmploymentStatus,NumPurchases,CustomerLoyaltyScore
+1,56,Male,USA,85922,Home,181.47,Single,Bachelor,Self-Employed,16,5
+2,69,Male,Canada,78231,Electronics,465.35,Single,Master,Self-Employed,13,4
+3,46,Male,Canada,59301,Toys,195.82,Divorced,Bachelor,Employed,18,4
+4,32,Female,USA,92711,Electronics,417.37,Married,Bachelor,Employed,14,4
+5,60,Male,Canada,71323,Books,422.74,Married,Bachelor,Unemployed,18,9
+6,25,Male,Canada,48752,Electronics,192.89,Divorced,Master,Self-Employed,5,4
+7,38,Male,USA,43395,Books,319.67,Married,High School,Self-Employed,9,9
+8,56,Female,USA,86273,Books,56.73,Single,Bachelor,Employed,3,10
+9,36,Female,Canada,34895,Books,60.8,Married,High School,Employed,8,6
+10,40,Male,USA,40699,Toys,33.84,Married,High School,Unemployed,10,10
+11,28,Male,Canada,95061,Electronics,294.7,Married,PhD,Unemployed,19,7
+12,28,Male,Canada,39715,Electronics,218.77,Divorced,Master,Employed,3,10
+13,41,Male,Canada,49169,Toys,278.54,Single,Master,Self-Employed,11,3
+14,53,Female,Canada,46163,Home,265.33,Married,PhD,Unemployed,11,8
+15,57,Female,USA,35782,Clothing,181.6,Divorced,PhD,Employed,17,3
+16,41,Female,USA,65585,Electronics,341.96,Married,High School,Employed,16,1
+17,20,Female,USA,60682,Clothing,381.67,Single,Bachelor,Self-Employed,7,10
+18,39,Male,USA,77864,Toys,17.17,Married,Master,Employed,4,5
+19,19,Male,Canada,85114,Home,111.55,Single,Bachelor,Employed,19,2
+20,41,Male,Canada,68067,Home,359.49,Married,Bachelor,Unemployed,12,10
+21,61,Female,USA,72685,Home,199.44,Single,PhD,Employed,15,6
+22,47,Male,Canada,48073,Toys,334.62,Married,Bachelor,Employed,11,10
+23,55,Female,Canada,66035,Books,180.01,Single,High School,Unemployed,5,9
+24,19,Female,Canada,94977,Books,201.47,Married,PhD,Self-Employed,5,1
+25,38,Male,USA,95450,Clothing,87.75,Married,Bachelor,Self-Employed,15,4
+26,50,Male,USA,40382,Books,136.53,Divorced,PhD,Unemployed,18,1
+27,29,Male,USA,34437,Books,306.65,Divorced,High School,Unemployed,11,1
+28,39,Female,Canada,94612,Home,222.25,Single,High School,Self-Employed,12,8
+29,61,Male,USA,91929,Home,389.41,Married,Bachelor,Self-Employed,2,2
+30,42,Female,USA,42329,Clothing,427.77,Single,PhD,Self-Employed,15,1
+31,66,Male,USA,55169,Electronics,275.41,Divorced,Bachelor,Self-Employed,4,8
+32,44,Female,USA,64594,Clothing,381.55,Single,Bachelor,Self-Employed,18,4
+33,59,Female,USA,90631,Clothing,160.38,Single,PhD,Unemployed,6,3
+34,45,Male,USA,75033,Toys,213.34,Divorced,Bachelor,Employed,19,4
+35,33,Female,Canada,93133,Toys,359.26,Married,High School,Self-Employed,11,5
+36,32,Female,Canada,82290,Clothing,199.24,Single,PhD,Self-Employed,2,1
+37,64,Male,USA,61750,Clothing,298.37,Divorced,PhD,Employed,8,1
+38,68,Female,USA,70461,Clothing,100.83,Married,PhD,Employed,11,3
+39,61,Male,Canada,54226,Books,303.89,Divorced,PhD,Employed,5,6
+40,69,Female,Canada,36721,Toys,432.14,Single,Bachelor,Employed,18,1
+41,20,Male,USA,86154,Clothing,435.63,Married,Bachelor,Employed,18,2
+42,54,Male,USA,50609,Home,364.93,Married,High School,Employed,14,7
+43,68,Female,USA,82130,Home,375.42,Divorced,Master,Unemployed,10,1
+44,24,Female,USA,85249,Books,283.38,Divorced,Master,Employed,3,7
+45,38,Female,Canada,78895,Books,296.49,Divorced,High School,Employed,9,4
+46,26,Female,USA,35656,Electronics,75.49,Married,Master,Unemployed,3,10
+47,56,Female,USA,93740,Electronics,227.49,Married,High School,Employed,11,6
+48,35,Male,USA,94309,Electronics,230.88,Single,Bachelor,Self-Employed,12,8
+49,21,Female,USA,59984,Books,479.66,Married,PhD,Self-Employed,12,9
+50,42,Male,Canada,35901,Books,221.23,Single,PhD,Employed,3,6
+51,31,Male,Canada,61552,Books,279.18,Divorced,Bachelor,Unemployed,7,9
+52,67,Female,Canada,61055,Home,271.29,Divorced,PhD,Self-Employed,14,4
+53,26,Male,USA,67685,Books,322.01,Married,PhD,Unemployed,11,6
+54,43,Male,USA,44716,Home,376.63,Divorced,Master,Self-Employed,7,8
+55,19,Male,Canada,41138,Electronics,120.27,Divorced,Bachelor,Employed,10,9
+56,37,Male,USA,65298,Electronics,269.07,Married,Master,Unemployed,11,3
+57,45,Female,USA,81112,Electronics,414.7,Single,Master,Unemployed,15,2
+58,64,Male,Canada,53429,Clothing,236.93,Married,PhD,Unemployed,19,6
+59,24,Female,Canada,80200,Clothing,146.44,Single,PhD,Self-Employed,16,4
+60,61,Female,Canada,78244,Toys,330.81,Married,Bachelor,Self-Employed,12,1
+61,25,Male,Canada,47347,Toys,413.65,Married,PhD,Self-Employed,18,8
+62,64,Female,USA,46920,Toys,40.94,Divorced,PhD,Employed,13,9
+63,52,Female,USA,61822,Clothing,390.63,Married,Bachelor,Self-Employed,5,9
+64,31,Female,Canada,76659,Clothing,412.61,Married,PhD,Employed,4,2
+65,34,Male,USA,70108,Toys,236.15,Single,Master,Unemployed,14,9
+66,53,Female,Canada,37967,Toys,491.82,Divorced,Bachelor,Unemployed,8,7
+67,67,Female,Canada,41871,Books,395.49,Single,PhD,Employed,9,5
+68,57,Female,USA,63613,Toys,389.09,Single,High School,Self-Employed,19,7
+69,21,Male,Canada,58179,Books,376.44,Divorced,Bachelor,Employed,3,9
+70,19,Female,USA,82188,Home,83.8,Divorced,Bachelor,Unemployed,5,8
+71,23,Male,USA,85099,Clothing,116.44,Divorced,High School,Unemployed,18,6
+72,59,Male,USA,65262,Toys,237.36,Married,PhD,Employed,1,4
+73,21,Male,USA,48268,Clothing,139.36,Divorced,PhD,Self-Employed,8,1
+74,46,Male,Canada,90545,Clothing,213.47,Divorced,Bachelor,Self-Employed,19,6
+75,35,Male,USA,69922,Clothing,445.35,Divorced,Bachelor,Employed,17,3
+76,43,Male,Canada,72913,Home,413.92,Single,PhD,Employed,17,6
+77,61,Female,Canada,85677,Electronics,318.72,Single,PhD,Self-Employed,11,6
+78,51,Male,Canada,79841,Toys,430.48,Married,Master,Unemployed,2,4
+79,27,Female,Canada,76332,Electronics,394.05,Single,Bachelor,Employed,6,2
+80,53,Female,USA,55032,Electronics,220.2,Married,Bachelor,Self-Employed,14,9
+81,31,Male,USA,67846,Electronics,108.52,Single,High School,Self-Employed,3,2
+82,48,Female,Canada,89474,Clothing,261.96,Divorced,Master,Unemployed,12,3
+83,65,Female,Canada,74936,Books,370.75,Single,PhD,Unemployed,4,10
+84,32,Female,USA,59794,Clothing,223.85,Married,Master,Unemployed,12,1
+85,25,Female,Canada,91588,Clothing,336.72,Single,PhD,Unemployed,13,7
+86,31,Male,USA,80331,Electronics,56.22,Divorced,PhD,Unemployed,2,1
+87,40,Female,Canada,58141,Clothing,376.52,Married,Master,Employed,2,9
+88,57,Male,USA,39074,Electronics,408.23,Divorced,Bachelor,Self-Employed,15,1
+89,38,Female,Canada,36406,Books,356.35,Divorced,PhD,Employed,17,5
+90,33,Female,Canada,53291,Toys,483.96,Married,Master,Employed,7,7
+91,62,Male,USA,71568,Electronics,415.06,Divorced,High School,Employed,14,3
+92,35,Female,Canada,76851,Books,452.52,Divorced,Master,Employed,12,9
+93,64,Female,Canada,84823,Toys,467.45,Single,High School,Employed,17,8
+94,41,Female,USA,53312,Home,402.66,Divorced,PhD,Unemployed,14,3
+95,43,Male,Canada,73108,Electronics,340.39,Divorced,Master,Unemployed,6,5
+96,42,Female,USA,96918,Electronics,12.8,Divorced,Master,Self-Employed,19,7
+97,62,Male,USA,64171,Home,238.25,Divorced,High School,Employed,6,4
+98,58,Female,Canada,71779,Home,289.87,Married,Master,Self-Employed,18,5
+99,46,Male,Canada,98828,Electronics,158.97,Single,Master,Unemployed,5,3
+100,32,Male,Canada,42411,Home,165.87,Divorced,PhD,Unemployed,6,9
+101,62,Female,Canada,87009,Clothing,480.97,Divorced,Master,Unemployed,2,10
+102,18,Female,Canada,45422,Toys,446.94,Married,Bachelor,Employed,8,9
+103,42,Male,Canada,72468,Toys,426.1,Divorced,High School,Employed,15,7
+104,24,Male,Canada,62371,Toys,208.95,Married,Master,Unemployed,15,10
+105,26,Female,USA,87022,Clothing,16.71,Single,High School,Self-Employed,11,2
+106,41,Male,Canada,81196,Home,49.31,Single,High School,Self-Employed,1,7
+107,18,Female,USA,56715,Books,162.98,Divorced,High School,Unemployed,18,7
+108,61,Female,Canada,57605,Home,17.71,Divorced,Master,Self-Employed,12,5
+109,25,Female,Canada,61174,Electronics,18.4,Divorced,Master,Unemployed,12,9
+110,41,Female,USA,39956,Toys,459.14,Married,High School,Self-Employed,11,3
+111,28,Male,Canada,99252,Home,356.02,Divorced,Bachelor,Unemployed,8,4
+112,68,Female,Canada,91949,Books,161.39,Divorced,High School,Self-Employed,7,1
+113,34,Male,USA,92646,Electronics,75.0,Single,Bachelor,Employed,2,6
+114,25,Female,Canada,93037,Clothing,260.7,Divorced,High School,Unemployed,11,4
+115,52,Male,Canada,36548,Clothing,12.62,Single,PhD,Unemployed,10,1
+116,52,Female,Canada,53177,Books,469.82,Divorced,High School,Self-Employed,3,2
+117,50,Male,USA,54022,Electronics,213.26,Single,High School,Unemployed,10,3
+118,22,Male,Canada,35542,Toys,207.14,Divorced,Master,Unemployed,18,9
+119,59,Female,Canada,90428,Home,201.39,Single,Bachelor,Unemployed,14,8
+120,56,Female,Canada,52740,Electronics,43.97,Married,PhD,Employed,18,7
+121,58,Female,Canada,89353,Clothing,322.78,Single,Bachelor,Employed,8,4
+122,45,Female,USA,86532,Books,369.17,Single,PhD,Self-Employed,10,1
+123,24,Male,USA,46052,Books,341.3,Single,High School,Employed,13,8
+124,26,Female,Canada,77076,Home,77.83,Divorced,Master,Self-Employed,8,4
+125,25,Male,Canada,83420,Books,293.63,Divorced,Master,Employed,4,3
+126,29,Male,USA,30671,Books,289.05,Divorced,Bachelor,Self-Employed,4,9
+127,51,Female,USA,30163,Electronics,435.52,Married,Master,Employed,5,10
+128,50,Male,Canada,71424,Toys,195.77,Married,Bachelor,Employed,1,4
+129,65,Male,USA,83744,Home,192.03,Single,Bachelor,Self-Employed,17,4
+130,40,Male,Canada,40634,Electronics,313.08,Married,PhD,Unemployed,2,9
+131,41,Male,USA,34798,Toys,320.21,Single,Bachelor,Unemployed,8,2
+132,54,Female,USA,52420,Electronics,239.95,Single,PhD,Employed,7,5
+133,52,Female,USA,59300,Electronics,227.1,Single,Master,Self-Employed,15,4
+134,61,Female,USA,40749,Books,252.13,Married,Bachelor,Unemployed,5,9
+135,57,Female,Canada,55121,Toys,431.91,Divorced,Bachelor,Self-Employed,2,5
+136,39,Male,USA,67487,Home,235.97,Married,High School,Unemployed,7,9
+137,44,Male,USA,63361,Home,470.57,Single,Bachelor,Self-Employed,8,9
+138,52,Female,Canada,51223,Toys,256.96,Single,Bachelor,Employed,7,2
+139,18,Female,USA,44056,Books,475.11,Married,High School,Self-Employed,7,9
+140,52,Female,USA,58380,Clothing,418.09,Single,High School,Unemployed,14,3
+141,54,Male,Canada,56035,Electronics,187.59,Single,Master,Employed,18,4
+142,64,Female,USA,60620,Books,433.18,Married,Bachelor,Self-Employed,6,1
+143,31,Female,Canada,49877,Toys,63.93,Married,Master,Unemployed,4,1
+144,20,Female,Canada,85316,Electronics,463.27,Married,Master,Employed,10,1
+145,18,Male,Canada,94041,Home,319.51,Single,High School,Self-Employed,18,9
+146,22,Male,Canada,83352,Clothing,36.65,Single,PhD,Unemployed,12,8
+147,43,Male,USA,60911,Home,325.69,Divorced,Master,Self-Employed,16,5
+148,31,Male,Canada,62784,Toys,487.38,Divorced,PhD,Self-Employed,7,5
+149,56,Male,USA,33191,Electronics,44.2,Married,Bachelor,Employed,6,9
+150,44,Male,USA,63160,Toys,281.8,Divorced,High School,Employed,5,3
+151,26,Male,USA,94641,Electronics,376.42,Single,Bachelor,Unemployed,3,3
+152,32,Male,USA,79723,Books,407.03,Divorced,Bachelor,Employed,12,7
+153,32,Female,USA,33631,Clothing,212.78,Single,High School,Unemployed,15,9
+154,43,Female,USA,36172,Books,110.04,Married,Bachelor,Self-Employed,10,6
+155,59,Male,USA,72080,Books,30.75,Married,High School,Self-Employed,19,2
+156,30,Male,USA,50281,Toys,294.07,Single,PhD,Unemployed,16,1
+157,68,Female,USA,58671,Clothing,231.93,Divorced,Bachelor,Self-Employed,11,2
+158,49,Male,USA,81431,Electronics,474.88,Married,High School,Employed,8,1
+159,56,Male,Canada,58602,Electronics,39.7,Married,Master,Self-Employed,3,10
+160,66,Male,Canada,81399,Home,345.84,Divorced,Bachelor,Employed,7,10
+161,69,Female,Canada,53472,Electronics,22.23,Divorced,PhD,Unemployed,7,9
+162,49,Female,USA,79230,Toys,94.0,Single,High School,Unemployed,14,10
+163,21,Female,Canada,37099,Books,232.25,Divorced,Bachelor,Self-Employed,2,8
+164,47,Female,Canada,55431,Books,232.89,Divorced,Bachelor,Self-Employed,10,7
+165,54,Female,Canada,86492,Books,345.99,Divorced,Bachelor,Employed,19,3
+166,40,Male,USA,77684,Clothing,456.0,Single,PhD,Employed,9,8
+167,56,Female,USA,60111,Electronics,323.13,Single,High School,Self-Employed,16,2
+168,62,Male,USA,93936,Toys,477.23,Married,Master,Self-Employed,19,2
+169,32,Male,USA,52614,Clothing,441.99,Single,Master,Unemployed,18,10
+170,60,Female,Canada,71991,Home,296.4,Married,Master,Unemployed,9,3
+171,46,Female,Canada,90920,Toys,418.56,Divorced,High School,Unemployed,16,7
+172,53,Male,Canada,93530,Toys,324.86,Married,Master,Self-Employed,13,1
+173,30,Male,Canada,66224,Toys,48.49,Married,PhD,Self-Employed,10,8
+174,49,Male,USA,37788,Books,372.88,Divorced,High School,Self-Employed,14,7
+175,24,Female,USA,58082,Toys,56.51,Married,Bachelor,Unemployed,12,4
+176,68,Female,USA,46531,Electronics,301.1,Single,PhD,Self-Employed,19,5
+177,39,Female,Canada,74857,Toys,354.29,Single,Bachelor,Employed,7,10
+178,45,Female,USA,40142,Books,42.6,Single,Master,Self-Employed,15,1
+179,19,Female,USA,78355,Toys,123.09,Single,PhD,Self-Employed,16,4
+180,59,Male,Canada,39866,Home,458.68,Married,High School,Self-Employed,8,1
+181,62,Female,Canada,94027,Home,311.99,Married,PhD,Self-Employed,10,1
+182,23,Male,USA,87906,Books,130.68,Divorced,Bachelor,Self-Employed,4,10
+183,45,Male,USA,58138,Electronics,348.43,Married,High School,Employed,19,1
+184,45,Male,USA,59956,Electronics,302.42,Married,PhD,Employed,19,7
+185,61,Female,USA,35439,Clothing,255.77,Married,PhD,Self-Employed,15,7
+186,61,Female,USA,77241,Books,488.33,Divorced,PhD,Unemployed,14,4
+187,37,Female,USA,72533,Toys,344.89,Single,PhD,Self-Employed,1,2
+188,47,Male,Canada,58270,Books,193.97,Married,High School,Self-Employed,16,3
+189,28,Male,Canada,69279,Clothing,402.04,Divorced,Bachelor,Self-Employed,10,8
+190,45,Male,Canada,53888,Books,443.45,Divorced,PhD,Unemployed,19,8
+191,42,Male,USA,47630,Books,71.36,Divorced,High School,Unemployed,3,6
+192,56,Male,Canada,91063,Clothing,108.27,Single,Bachelor,Unemployed,5,10
+193,50,Male,USA,65144,Electronics,115.95,Married,PhD,Employed,9,9
+194,18,Female,USA,82161,Toys,348.69,Divorced,Bachelor,Unemployed,18,9
+195,44,Female,Canada,80979,Clothing,305.49,Single,Bachelor,Employed,11,4
+196,69,Female,USA,36979,Home,313.31,Divorced,High School,Employed,16,1
+197,30,Female,USA,56189,Electronics,470.98,Divorced,Bachelor,Unemployed,2,1
+198,58,Male,Canada,72600,Home,390.2,Divorced,High School,Unemployed,12,10
+199,20,Male,Canada,89560,Electronics,72.69,Divorced,PhD,Unemployed,6,5
+200,56,Female,Canada,91558,Toys,180.28,Divorced,Bachelor,Employed,11,2
+201,23,Male,USA,36910,Toys,223.34,Single,Bachelor,Self-Employed,8,6
+202,25,Female,Canada,87713,Books,204.02,Married,Master,Unemployed,12,7
+203,44,Female,Canada,76857,Home,337.96,Married,PhD,Unemployed,2,1
+204,26,Female,USA,64964,Electronics,447.03,Married,PhD,Unemployed,9,6
+205,54,Male,Canada,55227,Toys,159.97,Married,Master,Employed,15,8
+206,50,Female,Canada,35978,Clothing,280.42,Single,Master,Employed,2,5
+207,68,Female,Canada,47153,Toys,396.81,Single,High School,Self-Employed,1,7
+208,59,Female,USA,89765,Clothing,213.95,Single,High School,Unemployed,10,10
+209,61,Male,USA,69071,Electronics,92.38,Divorced,Bachelor,Employed,2,6
+210,41,Male,USA,99519,Toys,242.73,Divorced,Bachelor,Self-Employed,12,4
+211,32,Female,USA,39503,Toys,37.06,Divorced,Bachelor,Unemployed,8,7
+212,49,Male,Canada,90703,Electronics,471.77,Married,Bachelor,Employed,5,10
+213,49,Male,USA,94379,Toys,46.66,Divorced,High School,Unemployed,1,9
+214,41,Male,USA,87866,Clothing,224.84,Married,PhD,Unemployed,15,10
+215,58,Male,Canada,46905,Toys,269.64,Divorced,Bachelor,Employed,6,10
+216,69,Male,Canada,75838,Home,492.8,Married,PhD,Employed,12,7
+217,66,Male,Canada,88279,Books,91.35,Divorced,Bachelor,Employed,8,5
+218,66,Male,USA,56806,Clothing,66.07,Divorced,Master,Unemployed,13,7
+219,69,Male,USA,75000,Home,14.27,Single,Bachelor,Unemployed,19,3
+220,29,Male,USA,52168,Electronics,86.23,Divorced,Bachelor,Self-Employed,1,2
+221,56,Male,Canada,68714,Clothing,111.56,Divorced,Bachelor,Unemployed,11,5
+222,19,Female,Canada,84093,Books,318.98,Single,High School,Employed,1,4
+223,20,Female,USA,85419,Books,117.66,Married,Master,Unemployed,8,5
+224,66,Male,Canada,79145,Electronics,20.06,Single,Bachelor,Self-Employed,5,8
+225,54,Female,Canada,32461,Electronics,415.04,Single,Bachelor,Self-Employed,17,4
+226,66,Female,Canada,44291,Clothing,189.14,Married,PhD,Employed,8,9
+227,34,Male,USA,76804,Toys,183.31,Divorced,Master,Employed,10,7
+228,66,Male,Canada,94946,Electronics,158.21,Married,Bachelor,Self-Employed,2,10
+229,19,Male,Canada,91332,Toys,487.93,Divorced,PhD,Self-Employed,9,7
+230,19,Female,USA,60841,Home,93.36,Divorced,PhD,Self-Employed,3,8
+231,45,Female,USA,78758,Books,450.14,Married,High School,Employed,18,6
+232,40,Male,Canada,67643,Toys,390.63,Single,PhD,Self-Employed,7,8
+233,54,Male,Canada,80408,Books,47.48,Married,Bachelor,Self-Employed,15,3
+234,49,Male,USA,73950,Toys,493.5,Divorced,High School,Employed,18,10
+235,50,Female,USA,86849,Home,142.97,Married,High School,Unemployed,3,10
+236,18,Female,Canada,58044,Electronics,58.31,Married,Bachelor,Unemployed,14,1
+237,36,Female,Canada,45997,Home,416.36,Divorced,Master,Self-Employed,2,6
+238,19,Female,Canada,53911,Electronics,356.27,Single,PhD,Unemployed,14,1
+239,61,Male,Canada,85533,Electronics,312.44,Married,High School,Unemployed,11,9
+240,43,Male,USA,44571,Books,86.43,Divorced,Master,Unemployed,16,2
+241,49,Male,Canada,87941,Home,244.46,Divorced,Bachelor,Unemployed,8,2
+242,23,Male,Canada,88005,Toys,392.47,Married,PhD,Self-Employed,7,7
+243,49,Female,USA,88712,Home,158.78,Single,PhD,Unemployed,11,2
+244,21,Female,Canada,73541,Books,162.73,Married,High School,Unemployed,3,10
+245,28,Male,USA,53387,Electronics,11.54,Single,PhD,Employed,17,8
+246,34,Male,Canada,78908,Books,95.38,Single,PhD,Self-Employed,14,6
+247,55,Female,Canada,43057,Clothing,438.95,Single,PhD,Employed,6,7
+248,41,Male,USA,94028,Clothing,226.46,Single,PhD,Employed,8,7
+249,22,Female,USA,85731,Toys,492.27,Married,Bachelor,Self-Employed,5,6
+250,69,Male,Canada,54858,Books,203.9,Divorced,Master,Unemployed,8,10
+251,51,Male,Canada,78689,Toys,360.44,Divorced,Bachelor,Employed,2,9
+252,23,Male,Canada,74638,Toys,148.14,Divorced,Bachelor,Self-Employed,15,9
+253,39,Male,USA,76486,Clothing,188.27,Divorced,High School,Unemployed,12,7
+254,28,Male,Canada,50567,Toys,103.46,Divorced,PhD,Self-Employed,17,9
+255,65,Male,USA,59739,Clothing,180.06,Divorced,Bachelor,Employed,1,10
+256,33,Male,USA,87804,Electronics,278.15,Married,PhD,Unemployed,15,3
+257,50,Female,Canada,33754,Books,495.97,Single,Bachelor,Unemployed,14,3
+258,26,Female,USA,57044,Toys,335.46,Divorced,Bachelor,Self-Employed,16,1
+259,23,Female,Canada,97260,Clothing,107.63,Married,High School,Unemployed,9,5
+260,33,Female,Canada,96912,Home,32.03,Divorced,Master,Employed,1,4
+261,46,Female,Canada,38706,Toys,71.91,Divorced,Master,Employed,17,2
+262,20,Male,Canada,38894,Electronics,285.65,Single,Bachelor,Employed,13,9
+263,37,Male,Canada,48037,Electronics,384.93,Single,High School,Self-Employed,5,3
+264,53,Female,USA,81612,Home,470.81,Single,PhD,Unemployed,10,8
+265,36,Male,USA,59725,Clothing,17.75,Divorced,PhD,Unemployed,6,6
+266,43,Female,Canada,35926,Toys,266.15,Divorced,Bachelor,Unemployed,19,5
+267,20,Female,Canada,39496,Clothing,240.73,Divorced,Master,Employed,13,1
+268,36,Male,USA,86447,Electronics,331.47,Single,High School,Unemployed,1,4
+269,37,Male,USA,59806,Clothing,284.19,Married,Master,Employed,15,3
+270,49,Male,USA,71321,Electronics,346.65,Divorced,PhD,Unemployed,14,1
+271,24,Female,USA,95095,Clothing,332.46,Divorced,Master,Employed,8,5
+272,69,Male,Canada,52656,Home,67.34,Divorced,PhD,Unemployed,10,6
+273,58,Female,Canada,85147,Books,401.86,Married,High School,Self-Employed,9,2
+274,50,Female,USA,79666,Home,70.38,Divorced,High School,Self-Employed,17,3
+275,57,Female,Canada,68787,Home,352.28,Married,Bachelor,Employed,9,6
+276,56,Male,USA,92946,Books,213.91,Divorced,Bachelor,Employed,3,4
+277,35,Male,Canada,51727,Books,261.79,Married,Master,Unemployed,11,9
+278,57,Female,USA,98056,Toys,452.62,Divorced,High School,Unemployed,12,5
+279,18,Male,Canada,33081,Toys,446.04,Single,High School,Self-Employed,10,4
+280,28,Male,USA,64196,Home,410.75,Single,Bachelor,Unemployed,17,2
+281,45,Male,USA,66735,Home,259.97,Single,PhD,Employed,17,6
+282,42,Female,Canada,55498,Electronics,370.76,Single,Master,Employed,11,10
+283,67,Female,USA,61656,Electronics,261.32,Divorced,Master,Employed,4,2
+284,40,Male,Canada,97695,Toys,436.11,Single,Bachelor,Employed,7,7
+285,48,Female,Canada,67900,Toys,207.36,Married,High School,Employed,14,3
+286,47,Male,USA,77701,Electronics,485.42,Single,Bachelor,Self-Employed,7,9
+287,59,Male,Canada,49033,Electronics,466.84,Single,Bachelor,Self-Employed,8,5
+288,52,Male,Canada,40805,Clothing,373.39,Single,Bachelor,Employed,1,8
+289,24,Male,Canada,65851,Clothing,146.91,Divorced,Bachelor,Unemployed,4,6
+290,33,Female,Canada,56832,Electronics,74.51,Single,PhD,Employed,12,10
+291,43,Female,Canada,93437,Clothing,428.8,Married,PhD,Self-Employed,3,8
+292,65,Female,USA,43944,Books,91.0,Single,High School,Employed,13,3
+293,69,Male,Canada,49873,Toys,428.59,Single,Bachelor,Self-Employed,6,3
+294,66,Male,Canada,70372,Toys,250.47,Single,PhD,Self-Employed,11,5
+295,19,Male,Canada,45379,Electronics,209.21,Married,High School,Employed,4,10
+296,18,Female,Canada,66751,Home,452.56,Single,Bachelor,Employed,16,3
+297,65,Male,Canada,35110,Electronics,305.89,Married,Master,Unemployed,7,8
+298,29,Female,USA,84341,Clothing,292.54,Married,PhD,Self-Employed,11,10
+299,22,Female,Canada,42087,Home,283.8,Single,High School,Unemployed,1,8
+300,54,Female,USA,53762,Clothing,191.87,Married,Master,Employed,7,2
+301,49,Female,USA,39596,Books,394.97,Divorced,Bachelor,Self-Employed,12,4
+302,26,Female,USA,48313,Clothing,133.87,Single,Bachelor,Unemployed,7,10
+303,58,Female,USA,96549,Books,470.06,Single,Bachelor,Unemployed,7,1
+304,52,Male,Canada,53705,Books,448.05,Married,PhD,Unemployed,10,4
+305,36,Male,USA,97364,Clothing,175.37,Married,High School,Employed,16,4
+306,65,Female,USA,32023,Clothing,367.44,Single,Master,Employed,8,10
+307,33,Female,Canada,89796,Books,290.88,Divorced,High School,Employed,9,9
+308,20,Male,Canada,94429,Home,175.45,Married,PhD,Self-Employed,9,3
+309,37,Female,Canada,91627,Books,494.38,Married,High School,Employed,2,2
+310,41,Female,USA,63848,Toys,22.37,Divorced,PhD,Self-Employed,13,9
+311,50,Male,Canada,67804,Books,133.8,Divorced,Bachelor,Unemployed,13,9
+312,41,Female,Canada,45379,Home,264.84,Single,Master,Unemployed,4,1
+313,69,Female,USA,89664,Toys,265.76,Divorced,Bachelor,Employed,12,6
+314,28,Female,Canada,57766,Electronics,298.58,Single,High School,Unemployed,17,10
+315,66,Male,Canada,98099,Electronics,378.32,Divorced,Bachelor,Employed,2,8
+316,25,Male,Canada,66060,Home,315.5,Married,Master,Self-Employed,13,3
+317,53,Male,Canada,99122,Books,304.14,Single,Bachelor,Unemployed,18,9
+318,55,Female,USA,46087,Clothing,36.22,Single,Master,Employed,15,2
+319,57,Female,Canada,78868,Home,194.5,Single,Master,Unemployed,8,6
+320,37,Male,Canada,53225,Toys,123.71,Divorced,Bachelor,Unemployed,15,1
+321,52,Female,USA,36643,Toys,140.03,Married,PhD,Employed,1,7
+322,65,Female,Canada,66727,Electronics,281.63,Single,High School,Unemployed,10,3
+323,42,Female,USA,41005,Toys,107.76,Single,PhD,Unemployed,12,7
+324,52,Female,Canada,95697,Home,154.04,Single,PhD,Unemployed,5,4
+325,42,Female,USA,46029,Toys,126.17,Single,Bachelor,Unemployed,9,9
+326,46,Male,USA,44226,Home,474.77,Married,High School,Self-Employed,8,5
+327,35,Female,USA,93646,Clothing,472.89,Divorced,High School,Unemployed,16,3
+328,63,Male,USA,90603,Electronics,308.87,Married,PhD,Unemployed,14,8
+329,35,Female,Canada,58731,Toys,463.02,Single,Bachelor,Employed,13,6
+330,19,Male,USA,98926,Home,395.05,Married,High School,Self-Employed,13,2
+331,52,Female,Canada,35997,Books,299.07,Single,PhD,Employed,5,3
+332,33,Male,USA,85506,Electronics,13.15,Divorced,High School,Employed,16,8
+333,58,Female,USA,79815,Clothing,388.53,Divorced,Bachelor,Employed,11,10
+334,53,Male,USA,72092,Home,354.22,Divorced,Bachelor,Self-Employed,5,7
+335,50,Female,Canada,92539,Clothing,311.47,Single,Bachelor,Employed,13,10
+336,21,Male,USA,96077,Clothing,382.61,Married,High School,Employed,11,6
+337,50,Female,Canada,51817,Toys,261.33,Divorced,Master,Employed,19,1
+338,31,Male,Canada,67861,Toys,355.0,Single,High School,Unemployed,3,9
+339,38,Male,Canada,43428,Home,468.23,Single,Master,Employed,15,3
+340,65,Female,Canada,73934,Books,194.14,Married,Bachelor,Self-Employed,7,5
+341,37,Female,Canada,40258,Home,356.98,Divorced,PhD,Self-Employed,7,7
+342,25,Male,Canada,87775,Books,243.09,Single,Master,Unemployed,6,7
+343,24,Female,Canada,35469,Clothing,340.46,Married,Bachelor,Self-Employed,3,3
+344,20,Male,Canada,58854,Electronics,383.82,Divorced,Bachelor,Self-Employed,13,4
+345,34,Male,Canada,36256,Home,32.27,Married,Master,Unemployed,7,10
+346,50,Male,USA,63937,Home,326.83,Married,PhD,Employed,5,7
+347,65,Female,USA,31651,Books,121.1,Single,Bachelor,Unemployed,18,8
+348,29,Male,USA,80288,Clothing,338.32,Single,Master,Employed,8,2
+349,68,Male,USA,55051,Clothing,239.48,Single,PhD,Employed,17,9
+350,39,Female,USA,57386,Books,389.04,Married,PhD,Self-Employed,1,7
+351,39,Female,Canada,46184,Clothing,70.47,Single,Bachelor,Unemployed,14,8
+352,63,Female,Canada,63787,Toys,316.9,Married,High School,Self-Employed,17,6
+353,47,Female,Canada,51621,Electronics,146.45,Married,High School,Self-Employed,10,6
+354,55,Male,Canada,89792,Home,427.96,Single,Bachelor,Employed,12,9
+355,55,Male,Canada,75253,Electronics,464.91,Divorced,PhD,Self-Employed,16,4
+356,62,Male,Canada,64051,Home,498.24,Divorced,Bachelor,Unemployed,14,5
+357,68,Male,Canada,79811,Toys,400.04,Divorced,Master,Self-Employed,16,9
+358,25,Female,USA,60447,Clothing,379.33,Married,High School,Self-Employed,8,1
+359,44,Male,USA,60254,Books,115.6,Married,Master,Employed,10,4
+360,44,Male,USA,87418,Toys,174.64,Married,Bachelor,Unemployed,17,7
+361,51,Female,USA,44472,Electronics,238.18,Single,Bachelor,Self-Employed,18,9
+362,38,Male,Canada,33471,Books,388.96,Married,PhD,Employed,16,10
+363,47,Male,Canada,38329,Clothing,458.33,Single,PhD,Self-Employed,17,6
+364,50,Male,Canada,64865,Toys,102.68,Single,PhD,Unemployed,16,8
+365,45,Male,USA,76850,Books,461.96,Divorced,Master,Self-Employed,19,9
+366,64,Male,Canada,84220,Toys,350.86,Divorced,PhD,Self-Employed,8,10
+367,50,Male,Canada,36397,Toys,309.28,Divorced,Bachelor,Employed,6,4
+368,22,Female,Canada,65525,Clothing,107.92,Single,PhD,Self-Employed,6,1
+369,65,Female,USA,83072,Home,37.21,Single,High School,Employed,9,8
+370,36,Male,Canada,53284,Books,288.55,Single,PhD,Unemployed,4,2
+371,21,Male,USA,91330,Clothing,329.24,Married,Master,Self-Employed,12,1
+372,52,Female,USA,55122,Toys,113.28,Single,High School,Unemployed,12,7
+373,66,Male,USA,92812,Clothing,282.66,Divorced,High School,Unemployed,17,10
+374,34,Male,USA,37999,Home,429.68,Divorced,High School,Self-Employed,15,9
+375,61,Male,Canada,52436,Books,419.18,Single,Master,Employed,9,9
+376,45,Female,USA,72963,Home,464.4,Single,Bachelor,Unemployed,7,3
+377,47,Male,USA,32096,Electronics,189.28,Divorced,PhD,Unemployed,10,6
+378,46,Female,Canada,55279,Books,165.84,Single,High School,Self-Employed,16,7
+379,63,Male,Canada,56201,Home,377.22,Divorced,High School,Self-Employed,12,10
+380,23,Female,USA,49715,Toys,221.25,Married,High School,Self-Employed,7,9
+381,52,Female,Canada,59309,Books,52.9,Divorced,Bachelor,Self-Employed,18,2
+382,58,Male,USA,45078,Books,148.57,Married,Bachelor,Self-Employed,15,8
+383,54,Female,USA,86614,Clothing,215.11,Single,Master,Self-Employed,6,7
+384,41,Male,USA,35105,Toys,153.33,Single,Bachelor,Employed,12,4
+385,46,Female,USA,32839,Electronics,172.78,Married,PhD,Unemployed,11,2
+386,66,Male,Canada,98920,Home,153.95,Single,Master,Employed,3,8
+387,63,Male,USA,73619,Clothing,30.33,Married,Master,Employed,2,5
+388,48,Female,Canada,72821,Home,322.18,Single,PhD,Self-Employed,6,6
+389,52,Male,Canada,43493,Electronics,302.67,Divorced,PhD,Unemployed,5,7
+390,50,Male,Canada,47069,Electronics,330.16,Single,PhD,Employed,18,10
+391,69,Female,Canada,37531,Books,104.23,Divorced,Master,Self-Employed,16,1
+392,38,Male,USA,67051,Electronics,154.87,Divorced,Master,Self-Employed,8,8
+393,49,Male,Canada,37736,Home,313.61,Married,Master,Unemployed,11,4
+394,40,Female,USA,37710,Toys,303.82,Single,PhD,Employed,10,9
+395,50,Female,Canada,97155,Toys,258.1,Married,PhD,Employed,12,1
+396,20,Male,Canada,43975,Books,181.7,Single,High School,Employed,6,2
+397,35,Male,USA,92424,Home,457.34,Divorced,Bachelor,Self-Employed,5,6
+398,42,Female,USA,75603,Home,176.49,Divorced,High School,Unemployed,9,10
+399,59,Female,USA,53252,Electronics,233.25,Single,PhD,Unemployed,16,1
+400,48,Male,Canada,31431,Home,342.28,Single,Master,Employed,14,4
+401,20,Female,Canada,67481,Clothing,276.08,Married,PhD,Self-Employed,8,8
+402,57,Male,USA,39557,Electronics,179.97,Single,Bachelor,Employed,19,10
+403,63,Male,USA,30162,Clothing,223.47,Single,High School,Unemployed,14,5
+404,41,Male,USA,64742,Books,399.3,Single,High School,Self-Employed,7,9
+405,67,Male,USA,49675,Toys,146.28,Married,Master,Employed,5,6
+406,49,Male,Canada,47015,Books,79.71,Single,High School,Employed,18,1
+407,64,Female,USA,80057,Toys,163.45,Divorced,High School,Self-Employed,2,6
+408,39,Female,USA,62591,Books,426.27,Married,PhD,Unemployed,11,6
+409,40,Female,USA,39833,Home,53.6,Married,High School,Self-Employed,8,6
+410,19,Female,USA,37896,Clothing,495.93,Divorced,High School,Employed,1,8
+411,44,Male,Canada,62972,Toys,275.09,Divorced,High School,Employed,12,6
+412,59,Male,USA,79733,Electronics,492.57,Divorced,Master,Employed,2,5
+413,19,Male,Canada,71800,Clothing,470.11,Single,Master,Employed,18,2
+414,43,Male,USA,35347,Electronics,231.88,Divorced,PhD,Unemployed,7,4
+415,34,Female,USA,89063,Clothing,107.26,Single,High School,Unemployed,17,10
+416,57,Male,Canada,32643,Clothing,90.79,Married,Master,Employed,14,5
+417,50,Male,USA,70785,Books,127.59,Married,Master,Unemployed,7,10
+418,26,Female,Canada,48681,Toys,357.96,Divorced,PhD,Unemployed,3,4
+419,60,Female,Canada,80026,Toys,143.75,Single,Bachelor,Unemployed,6,2
+420,65,Female,USA,45892,Clothing,177.3,Divorced,High School,Employed,2,7
+421,56,Female,Canada,77299,Home,229.9,Divorced,Master,Self-Employed,17,10
+422,46,Male,Canada,47073,Home,457.48,Single,PhD,Self-Employed,12,10
+423,59,Male,Canada,60682,Electronics,102.8,Divorced,PhD,Self-Employed,12,2
+424,43,Female,Canada,44289,Electronics,12.46,Married,PhD,Employed,17,1
+425,52,Male,Canada,37927,Books,39.45,Divorced,Master,Unemployed,10,5
+426,67,Male,Canada,78330,Clothing,453.34,Single,High School,Unemployed,3,1
+427,42,Male,Canada,96707,Electronics,327.28,Single,Bachelor,Employed,18,1
+428,41,Female,Canada,95428,Electronics,143.79,Married,High School,Employed,13,1
+429,30,Male,USA,80601,Clothing,96.82,Single,PhD,Self-Employed,12,6
+430,24,Female,USA,32539,Books,154.19,Single,PhD,Self-Employed,17,9
+431,53,Male,Canada,52669,Electronics,66.25,Married,Bachelor,Employed,4,10
+432,62,Male,USA,50644,Books,471.35,Divorced,High School,Self-Employed,10,1
+433,37,Male,Canada,48745,Toys,394.26,Married,PhD,Unemployed,11,5
+434,18,Female,Canada,58228,Books,236.57,Divorced,PhD,Employed,6,9
+435,25,Male,USA,64521,Home,433.83,Married,High School,Employed,6,9
+436,63,Female,Canada,56928,Home,132.23,Divorced,PhD,Unemployed,9,1
+437,33,Female,Canada,48322,Books,361.39,Married,High School,Unemployed,15,8
+438,31,Female,Canada,87714,Home,429.5,Divorced,PhD,Unemployed,2,1
+439,29,Male,Canada,92292,Toys,184.82,Married,High School,Self-Employed,4,8
+440,68,Male,USA,59055,Clothing,381.16,Divorced,Bachelor,Employed,5,1
+441,40,Male,Canada,72891,Home,154.59,Married,PhD,Self-Employed,17,5
+442,32,Male,Canada,36588,Home,156.44,Single,Bachelor,Unemployed,8,8
+443,45,Female,Canada,36304,Books,62.46,Divorced,PhD,Self-Employed,8,6
+444,51,Female,USA,37345,Toys,225.63,Married,PhD,Unemployed,12,9
+445,19,Female,Canada,59300,Clothing,367.56,Divorced,Master,Self-Employed,8,1
+446,49,Male,USA,54259,Books,470.71,Divorced,High School,Self-Employed,19,9
+447,40,Female,USA,45352,Books,305.86,Married,Bachelor,Unemployed,3,1
+448,39,Male,Canada,63365,Toys,432.94,Divorced,Bachelor,Self-Employed,18,10
+449,68,Female,Canada,49446,Clothing,413.02,Married,Bachelor,Employed,19,10
+450,42,Male,USA,32336,Toys,94.94,Single,High School,Self-Employed,19,3
+451,39,Male,Canada,92032,Clothing,248.05,Divorced,Master,Self-Employed,15,1
+452,39,Female,USA,37521,Toys,67.29,Single,Bachelor,Employed,6,3
+453,66,Female,USA,53481,Books,344.26,Divorced,High School,Unemployed,16,2
+454,69,Female,Canada,48474,Books,475.45,Divorced,PhD,Employed,8,2
+455,59,Female,Canada,76760,Electronics,77.17,Divorced,Bachelor,Self-Employed,16,9
+456,23,Male,USA,85718,Home,369.6,Married,Bachelor,Unemployed,18,8
+457,32,Female,USA,74629,Toys,319.8,Single,Master,Self-Employed,16,1
+458,60,Female,USA,75232,Electronics,295.97,Divorced,Bachelor,Self-Employed,11,4
+459,54,Female,USA,97169,Home,201.16,Married,Bachelor,Employed,7,1
+460,50,Male,Canada,80669,Toys,184.01,Divorced,PhD,Employed,17,1
+461,25,Male,Canada,99184,Clothing,32.17,Married,High School,Unemployed,17,4
+462,61,Female,Canada,77945,Home,116.78,Divorced,High School,Unemployed,12,2
+463,61,Male,Canada,43140,Books,17.44,Single,Master,Unemployed,13,3
+464,22,Female,Canada,44357,Electronics,294.89,Single,PhD,Self-Employed,10,9
+465,56,Male,USA,98673,Home,61.87,Divorced,High School,Employed,7,2
+466,21,Male,Canada,95633,Home,437.78,Married,PhD,Employed,14,4
+467,23,Male,Canada,42924,Books,266.34,Divorced,High School,Employed,1,1
+468,62,Male,Canada,99286,Toys,352.85,Married,PhD,Unemployed,17,2
+469,49,Female,Canada,87326,Clothing,211.32,Divorced,Master,Employed,4,5
+470,69,Female,Canada,60651,Books,284.68,Married,Bachelor,Employed,5,10
+471,47,Female,USA,78777,Clothing,471.9,Single,Master,Employed,7,1
+472,64,Male,USA,46994,Toys,50.54,Divorced,High School,Unemployed,10,7
+473,52,Female,USA,97263,Home,134.43,Single,Master,Employed,17,4
+474,57,Female,Canada,89634,Clothing,392.19,Single,Bachelor,Unemployed,7,6
+475,69,Female,USA,40800,Electronics,58.38,Divorced,Master,Employed,1,8
+476,33,Male,USA,67823,Electronics,47.07,Divorced,High School,Employed,7,6
+477,30,Male,Canada,93878,Books,187.16,Married,High School,Employed,11,2
+478,67,Male,Canada,48708,Toys,55.16,Married,Master,Unemployed,9,1
+479,59,Female,Canada,42819,Books,296.69,Single,Bachelor,Unemployed,12,8
+480,47,Female,USA,93870,Books,120.87,Married,Master,Employed,3,8
+481,36,Female,USA,39283,Books,448.89,Married,Bachelor,Self-Employed,4,9
+482,34,Male,Canada,60573,Electronics,393.92,Divorced,PhD,Unemployed,4,6
+483,36,Male,Canada,60933,Electronics,352.86,Married,Bachelor,Unemployed,13,1
+484,45,Female,USA,35774,Books,312.3,Single,PhD,Employed,19,9
+485,43,Male,USA,40983,Electronics,433.1,Married,Master,Self-Employed,10,3
+486,54,Male,Canada,48133,Toys,119.3,Single,Bachelor,Employed,5,6
+487,43,Male,Canada,44939,Books,437.82,Divorced,PhD,Unemployed,7,10
+488,40,Male,USA,30781,Electronics,396.85,Single,PhD,Unemployed,16,10
+489,26,Female,Canada,86700,Clothing,376.6,Married,PhD,Employed,1,9
+490,29,Male,USA,57624,Books,285.02,Divorced,High School,Employed,12,3
+491,18,Male,USA,36823,Books,130.66,Married,Master,Self-Employed,2,5
+492,18,Male,USA,48489,Toys,217.54,Divorced,PhD,Self-Employed,7,5
+493,64,Male,USA,69961,Home,398.85,Divorced,Bachelor,Unemployed,11,10
+494,51,Female,Canada,59118,Home,25.57,Married,PhD,Self-Employed,13,7
+495,49,Female,Canada,52263,Toys,393.2,Married,High School,Self-Employed,2,4
+496,65,Male,USA,43565,Toys,127.63,Divorced,Master,Unemployed,7,4
+497,42,Male,USA,50354,Toys,80.71,Divorced,High School,Unemployed,15,7
+498,57,Male,USA,72951,Home,66.69,Married,High School,Unemployed,11,9
+499,62,Male,USA,53648,Toys,23.35,Single,High School,Unemployed,2,4
+500,18,Male,USA,80729,Electronics,266.56,Married,Bachelor,Employed,7,4
+501,33,Male,Canada,71971,Books,116.95,Divorced,Master,Unemployed,4,6
+502,56,Female,Canada,48658,Books,494.82,Married,Master,Unemployed,11,6
+503,22,Male,Canada,51253,Clothing,291.47,Single,Bachelor,Unemployed,2,7
+504,39,Female,Canada,94166,Clothing,77.56,Married,Master,Self-Employed,16,1
+505,46,Female,USA,78563,Books,347.49,Divorced,High School,Unemployed,7,3
+506,20,Male,USA,56390,Electronics,449.89,Married,Master,Employed,13,9
+507,29,Female,USA,81578,Home,375.14,Divorced,Bachelor,Employed,5,6
+508,43,Female,USA,62658,Home,47.46,Divorced,High School,Unemployed,17,6
+509,33,Female,USA,36852,Electronics,448.98,Married,Bachelor,Employed,12,5
+510,68,Female,Canada,32551,Home,399.03,Divorced,PhD,Self-Employed,19,3
+511,54,Female,USA,91001,Toys,87.57,Divorced,High School,Unemployed,7,5
+512,39,Female,Canada,79159,Books,35.38,Single,High School,Employed,6,1
+513,46,Male,Canada,81707,Books,283.08,Single,Master,Employed,8,3
+514,31,Female,Canada,63243,Electronics,86.46,Single,High School,Unemployed,13,4
+515,45,Female,Canada,51800,Home,418.95,Single,Bachelor,Employed,5,5
+516,22,Female,USA,87828,Clothing,185.58,Divorced,Master,Unemployed,2,10
+517,64,Male,Canada,37239,Clothing,457.32,Married,PhD,Employed,9,9
+518,66,Female,Canada,36710,Home,287.19,Divorced,Bachelor,Self-Employed,11,4
+519,47,Male,Canada,51384,Clothing,99.51,Divorced,PhD,Employed,6,3
+520,63,Female,USA,51038,Electronics,78.4,Divorced,PhD,Employed,7,10
+521,69,Male,USA,70846,Electronics,292.47,Married,PhD,Unemployed,7,1
+522,22,Male,USA,97821,Home,383.32,Single,High School,Employed,19,10
+523,29,Female,Canada,67991,Clothing,392.94,Divorced,Bachelor,Unemployed,6,6
+524,33,Female,Canada,36971,Electronics,145.12,Divorced,Bachelor,Self-Employed,11,7
+525,43,Male,USA,59139,Electronics,110.08,Single,High School,Unemployed,11,10
+526,43,Female,Canada,67711,Toys,18.21,Divorced,Master,Unemployed,7,8
+527,65,Male,USA,36530,Toys,342.81,Married,PhD,Employed,2,1
+528,38,Male,USA,41116,Electronics,47.52,Divorced,Bachelor,Self-Employed,19,4
+529,56,Male,Canada,95794,Home,216.17,Divorced,High School,Unemployed,4,5
+530,53,Male,Canada,30282,Books,304.82,Single,PhD,Employed,6,2
+531,50,Male,Canada,31898,Books,469.18,Divorced,Master,Employed,17,1
+532,47,Female,Canada,34135,Electronics,162.78,Divorced,Master,Unemployed,5,8
+533,54,Male,USA,36629,Electronics,132.39,Married,PhD,Employed,7,6
+534,40,Male,USA,95031,Electronics,330.54,Single,Master,Unemployed,9,5
+535,27,Female,USA,63380,Home,313.43,Single,Bachelor,Unemployed,1,9
+536,22,Male,USA,47071,Toys,172.73,Married,Bachelor,Unemployed,1,2
+537,53,Female,USA,50074,Electronics,464.77,Divorced,Bachelor,Self-Employed,19,10
+538,51,Female,Canada,97843,Electronics,423.98,Single,Master,Unemployed,6,8
+539,69,Female,USA,69901,Clothing,119.75,Single,Bachelor,Employed,18,10
+540,48,Male,USA,41205,Home,127.18,Divorced,High School,Self-Employed,10,9
+541,27,Male,USA,85661,Electronics,261.03,Divorced,Bachelor,Employed,11,1
+542,36,Male,Canada,35906,Clothing,389.05,Single,Bachelor,Self-Employed,1,7
+543,49,Female,Canada,32591,Books,31.58,Divorced,Master,Self-Employed,1,8
+544,18,Male,Canada,92987,Electronics,349.73,Single,Bachelor,Self-Employed,13,3
+545,22,Female,Canada,93370,Electronics,327.64,Divorced,PhD,Self-Employed,5,4
+546,62,Male,USA,84400,Clothing,123.43,Divorced,High School,Employed,1,3
+547,21,Female,USA,55150,Home,343.86,Married,Master,Unemployed,3,7
+548,33,Male,Canada,61852,Electronics,470.69,Divorced,High School,Employed,18,9
+549,41,Male,Canada,72870,Books,32.93,Married,PhD,Unemployed,9,3
+550,33,Male,USA,82756,Electronics,166.63,Divorced,Master,Employed,14,6
+551,19,Female,USA,86481,Books,224.71,Single,Master,Self-Employed,17,8
+552,66,Female,Canada,31283,Toys,450.64,Single,Bachelor,Self-Employed,14,6
+553,45,Male,Canada,63691,Toys,481.51,Divorced,High School,Unemployed,4,2
+554,49,Male,Canada,31125,Books,227.62,Divorced,PhD,Unemployed,5,7
+555,44,Female,Canada,97065,Home,377.51,Single,PhD,Employed,17,2
+556,37,Female,USA,56170,Electronics,270.51,Divorced,Master,Unemployed,2,2
+557,41,Female,USA,38438,Electronics,273.51,Married,Bachelor,Employed,5,2
+558,29,Male,USA,50095,Toys,146.27,Married,Master,Unemployed,4,1
+559,67,Female,Canada,46154,Books,116.31,Married,Master,Unemployed,4,1
+560,52,Male,Canada,38004,Electronics,151.12,Married,Master,Unemployed,6,7
+561,50,Female,USA,39752,Electronics,282.6,Married,Master,Self-Employed,13,5
+562,50,Male,USA,85426,Home,24.29,Divorced,PhD,Self-Employed,5,3
+563,68,Female,USA,56819,Clothing,454.55,Divorced,PhD,Employed,7,1
+564,60,Female,USA,54217,Toys,86.58,Married,Master,Unemployed,1,10
+565,54,Female,Canada,62994,Toys,117.84,Divorced,Master,Employed,14,6
+566,29,Female,USA,45036,Clothing,263.96,Divorced,Bachelor,Unemployed,4,1
+567,20,Female,USA,79416,Electronics,357.96,Married,Master,Self-Employed,17,9
+568,18,Male,USA,39587,Home,56.91,Divorced,PhD,Self-Employed,14,2
+569,50,Female,USA,30645,Home,165.67,Divorced,High School,Unemployed,16,1
+570,57,Female,USA,60930,Toys,484.65,Divorced,PhD,Unemployed,14,7
+571,27,Female,USA,60090,Home,138.55,Married,Bachelor,Self-Employed,16,6
+572,60,Male,USA,82142,Clothing,163.39,Divorced,PhD,Self-Employed,8,6
+573,61,Female,Canada,56475,Electronics,419.88,Single,High School,Employed,3,5
+574,46,Male,Canada,48888,Clothing,34.61,Single,Master,Self-Employed,19,4
+575,30,Female,Canada,73732,Books,237.66,Married,High School,Unemployed,1,4
+576,29,Female,Canada,76305,Toys,196.01,Single,Master,Employed,2,3
+577,48,Male,USA,76037,Home,165.13,Married,Master,Unemployed,15,10
+578,63,Female,Canada,39346,Books,149.99,Single,PhD,Employed,10,8
+579,19,Male,Canada,30587,Home,54.77,Single,PhD,Unemployed,18,7
+580,68,Male,USA,42763,Electronics,164.26,Single,PhD,Self-Employed,14,9
+581,67,Female,USA,89165,Electronics,31.1,Married,Bachelor,Unemployed,17,1
+582,52,Male,Canada,99615,Electronics,392.67,Married,PhD,Employed,13,7
+583,40,Female,Canada,66116,Home,205.13,Divorced,Bachelor,Unemployed,1,10
+584,34,Female,USA,55556,Books,227.51,Married,PhD,Employed,5,4
+585,43,Male,Canada,89042,Electronics,447.86,Single,Master,Unemployed,13,7
+586,25,Male,USA,48099,Books,332.45,Single,Bachelor,Self-Employed,14,1
+587,46,Male,USA,75096,Home,13.95,Married,High School,Self-Employed,3,5
+588,43,Male,USA,43230,Books,472.16,Married,Bachelor,Unemployed,15,3
+589,27,Female,USA,59009,Home,126.2,Married,Bachelor,Unemployed,19,5
+590,43,Female,Canada,63866,Home,62.73,Divorced,High School,Unemployed,17,4
+591,51,Male,USA,71855,Toys,386.38,Single,Bachelor,Employed,3,2
+592,68,Female,USA,36416,Home,255.23,Divorced,Master,Unemployed,16,4
+593,58,Female,Canada,85915,Home,222.55,Divorced,PhD,Unemployed,14,3
+594,24,Female,USA,48058,Clothing,132.26,Single,High School,Employed,12,1
+595,21,Female,Canada,70718,Electronics,278.26,Single,PhD,Self-Employed,12,10
+596,67,Male,Canada,62602,Toys,144.45,Married,Master,Unemployed,11,8
+597,62,Male,Canada,88067,Toys,451.78,Married,High School,Unemployed,17,5
+598,28,Female,USA,57516,Toys,115.45,Divorced,PhD,Self-Employed,8,4
+599,46,Male,Canada,31089,Clothing,443.33,Married,PhD,Self-Employed,17,10
+600,53,Male,Canada,67346,Home,284.11,Married,Master,Employed,11,5
+601,42,Male,USA,40487,Electronics,415.96,Single,PhD,Unemployed,2,4
+602,38,Female,Canada,30155,Books,359.29,Single,Master,Unemployed,10,3
+603,53,Female,Canada,97494,Home,351.38,Married,Bachelor,Employed,10,5
+604,27,Female,Canada,68547,Clothing,168.93,Single,Master,Self-Employed,11,4
+605,54,Male,Canada,58795,Home,124.61,Married,Bachelor,Employed,6,1
+606,26,Female,Canada,85296,Home,113.33,Single,High School,Self-Employed,4,3
+607,41,Female,USA,51447,Clothing,430.02,Single,PhD,Employed,12,10
+608,52,Male,Canada,66598,Toys,412.01,Single,Master,Self-Employed,11,10
+609,66,Female,Canada,71814,Toys,225.88,Single,Master,Employed,13,8
+610,52,Female,USA,93278,Electronics,74.88,Married,PhD,Self-Employed,5,7
+611,65,Male,USA,85077,Electronics,197.3,Divorced,PhD,Self-Employed,6,2
+612,53,Male,USA,39528,Toys,313.48,Single,High School,Self-Employed,1,1
+613,35,Male,Canada,80100,Books,232.66,Married,High School,Self-Employed,6,3
+614,66,Female,USA,38179,Home,392.29,Married,Master,Self-Employed,18,5
+615,56,Female,Canada,78781,Books,498.84,Single,High School,Unemployed,9,10
+616,49,Female,Canada,85267,Home,103.65,Divorced,Bachelor,Self-Employed,15,1
+617,41,Male,USA,53952,Toys,235.23,Single,High School,Unemployed,8,3
+618,40,Male,USA,83798,Electronics,221.18,Married,High School,Self-Employed,19,3
+619,49,Female,Canada,80939,Electronics,159.2,Divorced,Master,Unemployed,16,5
+620,54,Female,USA,59516,Books,107.07,Married,Bachelor,Unemployed,6,3
+621,29,Male,Canada,86526,Electronics,42.19,Single,High School,Employed,6,9
+622,66,Male,USA,40449,Toys,444.69,Divorced,Bachelor,Self-Employed,3,1
+623,30,Male,USA,80290,Books,215.73,Married,Bachelor,Employed,10,4
+624,40,Male,USA,52746,Home,253.48,Married,Bachelor,Employed,1,10
+625,42,Female,Canada,97990,Electronics,459.3,Married,PhD,Self-Employed,14,10
+626,52,Male,USA,88810,Clothing,390.38,Single,PhD,Employed,4,4
+627,58,Female,Canada,45223,Electronics,73.95,Divorced,PhD,Self-Employed,12,1
+628,47,Female,Canada,32597,Home,287.06,Single,PhD,Employed,6,2
+629,34,Female,Canada,95677,Books,226.7,Single,Master,Self-Employed,11,1
+630,66,Male,Canada,32659,Home,400.63,Single,High School,Self-Employed,12,6
+631,37,Male,USA,45037,Clothing,364.87,Divorced,PhD,Self-Employed,10,3
+632,65,Male,Canada,76738,Toys,348.3,Single,Master,Unemployed,18,7
+633,42,Male,Canada,42109,Electronics,176.87,Single,High School,Employed,7,5
+634,39,Female,USA,52010,Books,404.43,Single,PhD,Unemployed,7,9
+635,30,Male,Canada,38787,Toys,35.67,Single,High School,Employed,11,7
+636,36,Male,USA,38472,Home,88.22,Married,PhD,Employed,4,4
+637,66,Female,Canada,53383,Books,174.46,Single,Master,Employed,1,5
+638,53,Male,USA,91709,Toys,47.64,Married,Bachelor,Unemployed,13,5
+639,29,Female,Canada,99785,Books,125.15,Single,Bachelor,Employed,18,5
+640,58,Female,USA,64518,Clothing,416.77,Divorced,High School,Unemployed,9,10
+641,36,Female,Canada,83909,Clothing,474.64,Married,Master,Self-Employed,9,9
+642,29,Female,Canada,48351,Electronics,159.26,Married,Bachelor,Employed,9,10
+643,26,Female,USA,99624,Electronics,139.61,Married,PhD,Employed,10,3
+644,24,Female,USA,83330,Clothing,147.15,Married,Bachelor,Self-Employed,2,6
+645,45,Female,USA,45282,Books,146.08,Divorced,High School,Self-Employed,6,8
+646,31,Female,USA,51778,Clothing,27.61,Single,High School,Employed,15,9
+647,48,Male,Canada,54264,Electronics,464.19,Married,Master,Self-Employed,3,7
+648,69,Male,Canada,89675,Clothing,114.71,Divorced,High School,Unemployed,11,3
+649,36,Male,USA,35075,Clothing,215.8,Married,Bachelor,Unemployed,6,1
+650,64,Male,Canada,78454,Books,14.75,Single,Bachelor,Employed,3,4
+651,33,Female,USA,58365,Toys,430.4,Married,Bachelor,Unemployed,11,6
+652,22,Male,USA,78200,Electronics,368.27,Divorced,Bachelor,Unemployed,15,3
+653,52,Female,Canada,41002,Books,473.91,Single,Master,Employed,13,1
+654,29,Male,Canada,43947,Clothing,392.99,Divorced,PhD,Self-Employed,10,6
+655,42,Male,Canada,82142,Clothing,163.72,Single,PhD,Employed,6,1
+656,69,Male,Canada,86307,Toys,131.46,Single,Master,Unemployed,15,9
+657,38,Female,Canada,34493,Electronics,351.88,Single,High School,Employed,18,1
+658,53,Male,Canada,80085,Electronics,188.42,Married,PhD,Employed,18,6
+659,40,Female,Canada,64228,Home,287.45,Divorced,High School,Unemployed,7,1
+660,33,Female,USA,81875,Electronics,13.07,Divorced,PhD,Unemployed,15,7
+661,56,Male,USA,61655,Toys,40.32,Divorced,High School,Employed,18,3
+662,62,Male,USA,73472,Home,272.33,Single,Master,Unemployed,18,6
+663,59,Male,USA,79437,Home,287.38,Married,Bachelor,Unemployed,9,7
+664,56,Female,USA,79416,Clothing,378.21,Single,High School,Unemployed,2,1
+665,31,Male,Canada,89711,Clothing,74.66,Divorced,Bachelor,Unemployed,8,1
+666,48,Female,USA,36816,Electronics,261.46,Married,High School,Unemployed,2,5
+667,22,Female,USA,94307,Home,105.28,Married,High School,Unemployed,11,6
+668,52,Male,USA,76733,Clothing,55.67,Married,High School,Self-Employed,7,9
+669,40,Male,USA,41240,Toys,211.14,Divorced,High School,Employed,6,1
+670,46,Female,USA,62762,Clothing,90.03,Married,High School,Unemployed,10,4
+671,60,Female,USA,38259,Clothing,118.67,Married,Bachelor,Employed,5,10
+672,28,Female,USA,80139,Home,165.6,Single,High School,Self-Employed,11,8
+673,35,Male,Canada,44849,Home,137.1,Single,Bachelor,Unemployed,1,10
+674,64,Female,Canada,84869,Books,52.92,Married,Master,Employed,2,9
+675,29,Male,USA,93095,Toys,54.06,Married,PhD,Unemployed,1,3
+676,26,Female,Canada,53567,Home,104.69,Single,High School,Unemployed,19,2
+677,27,Female,Canada,65292,Electronics,34.77,Single,PhD,Unemployed,2,4
+678,61,Male,Canada,81631,Toys,316.96,Single,Bachelor,Unemployed,4,2
+679,34,Female,Canada,39885,Toys,150.79,Divorced,Master,Unemployed,12,1
+680,55,Male,USA,89659,Home,147.08,Divorced,Master,Unemployed,18,3
+681,24,Male,Canada,84306,Toys,172.68,Single,Master,Unemployed,1,7
+682,63,Female,Canada,96314,Home,334.77,Married,PhD,Self-Employed,1,1
+683,30,Male,Canada,95087,Clothing,436.61,Single,Bachelor,Self-Employed,14,2
+684,57,Male,USA,59165,Books,381.95,Divorced,High School,Unemployed,4,1
+685,59,Female,USA,88929,Clothing,366.49,Married,High School,Unemployed,5,8
+686,26,Male,USA,97028,Home,247.35,Divorced,Bachelor,Self-Employed,11,5
+687,67,Male,USA,79812,Home,349.96,Married,PhD,Self-Employed,13,8
+688,44,Male,USA,80500,Clothing,280.85,Divorced,High School,Self-Employed,16,3
+689,19,Female,USA,88643,Electronics,115.96,Married,Bachelor,Unemployed,13,7
+690,22,Male,USA,74900,Electronics,112.21,Married,High School,Employed,2,8
+691,46,Female,Canada,72946,Electronics,155.23,Married,Master,Employed,16,6
+692,54,Female,Canada,37851,Home,456.29,Married,High School,Employed,6,7
+693,55,Male,Canada,46288,Toys,278.23,Divorced,PhD,Employed,14,2
+694,36,Male,USA,97580,Home,369.61,Divorced,Bachelor,Unemployed,1,8
+695,25,Male,USA,37368,Toys,179.81,Married,PhD,Employed,17,5
+696,65,Female,USA,76403,Clothing,209.78,Married,Bachelor,Self-Employed,11,7
+697,62,Male,USA,39168,Books,71.53,Divorced,Master,Self-Employed,19,1
+698,18,Male,USA,79879,Toys,93.93,Married,Bachelor,Employed,3,5
+699,39,Male,Canada,89871,Electronics,415.4,Married,High School,Self-Employed,11,1
+700,69,Male,Canada,62174,Home,296.57,Married,High School,Unemployed,5,8
+701,34,Male,USA,36581,Clothing,175.39,Single,Master,Employed,17,4
+702,24,Female,USA,94046,Electronics,403.4,Married,Bachelor,Employed,7,4
+703,42,Female,USA,79678,Clothing,130.79,Single,Master,Unemployed,10,2
+704,62,Male,USA,56649,Books,488.26,Married,High School,Self-Employed,11,5
+705,21,Male,Canada,44567,Home,178.96,Divorced,PhD,Unemployed,3,1
+706,53,Male,USA,91944,Home,175.28,Single,Master,Unemployed,10,9
+707,23,Male,USA,58803,Books,162.84,Single,PhD,Self-Employed,10,5
+708,48,Female,USA,48230,Home,69.83,Married,PhD,Unemployed,14,6
+709,36,Male,USA,47862,Toys,64.46,Married,Bachelor,Self-Employed,12,2
+710,61,Female,Canada,73355,Clothing,327.57,Single,Master,Self-Employed,15,10
+711,56,Female,USA,61259,Electronics,438.81,Divorced,PhD,Unemployed,10,10
+712,44,Male,USA,60795,Books,397.36,Divorced,PhD,Self-Employed,10,1
+713,27,Female,Canada,38770,Toys,79.14,Married,Bachelor,Unemployed,19,4
+714,43,Female,Canada,41093,Electronics,277.34,Divorced,Bachelor,Self-Employed,1,7
+715,36,Female,Canada,76571,Electronics,61.74,Divorced,High School,Employed,10,6
+716,56,Female,USA,30193,Books,32.19,Married,PhD,Self-Employed,2,10
+717,20,Male,USA,47569,Toys,331.63,Divorced,High School,Self-Employed,17,1
+718,62,Male,Canada,41190,Electronics,272.22,Married,PhD,Unemployed,7,1
+719,30,Female,Canada,92824,Electronics,50.19,Single,High School,Self-Employed,7,8
+720,67,Male,Canada,72752,Toys,27.12,Married,Bachelor,Employed,9,4
+721,45,Male,Canada,62327,Home,494.98,Single,Master,Employed,2,5
+722,37,Male,Canada,72070,Electronics,24.71,Single,Bachelor,Self-Employed,14,7
+723,45,Male,Canada,70197,Clothing,227.82,Divorced,High School,Self-Employed,17,8
+724,25,Male,USA,32261,Toys,257.26,Divorced,High School,Employed,1,10
+725,58,Female,USA,56512,Electronics,67.47,Divorced,Master,Unemployed,9,7
+726,56,Male,USA,36716,Books,92.84,Married,PhD,Employed,19,2
+727,18,Male,Canada,58933,Clothing,182.38,Divorced,High School,Employed,4,4
+728,20,Male,Canada,34378,Electronics,383.22,Single,High School,Self-Employed,8,10
+729,30,Male,Canada,70583,Clothing,258.47,Divorced,High School,Self-Employed,13,1
+730,45,Female,Canada,59033,Clothing,322.57,Divorced,Master,Employed,4,10
+731,66,Female,Canada,54000,Home,492.74,Married,Bachelor,Unemployed,9,9
+732,42,Female,Canada,72604,Clothing,386.32,Married,High School,Employed,9,3
+733,50,Female,USA,98336,Home,222.84,Single,Master,Employed,18,3
+734,55,Male,USA,35410,Toys,228.76,Married,High School,Unemployed,12,10
+735,23,Female,Canada,86044,Home,313.2,Divorced,PhD,Employed,10,9
+736,61,Male,USA,93315,Books,336.03,Married,Master,Employed,11,10
+737,62,Male,Canada,36796,Electronics,255.35,Single,High School,Self-Employed,7,3
+738,49,Male,USA,84245,Toys,325.98,Divorced,Master,Unemployed,9,8
+739,62,Male,Canada,73056,Toys,21.53,Single,High School,Self-Employed,6,2
+740,64,Male,Canada,47709,Books,220.52,Married,Bachelor,Self-Employed,19,3
+741,38,Female,USA,88557,Home,146.68,Married,High School,Unemployed,16,2
+742,33,Female,USA,47543,Electronics,73.3,Single,Master,Unemployed,15,1
+743,38,Female,Canada,67418,Home,58.78,Divorced,PhD,Employed,7,2
+744,28,Female,Canada,46724,Clothing,305.56,Married,PhD,Self-Employed,16,8
+745,54,Male,USA,33828,Home,266.56,Married,PhD,Unemployed,5,9
+746,53,Female,USA,47087,Toys,134.26,Divorced,High School,Self-Employed,16,2
+747,52,Male,Canada,42605,Electronics,240.77,Married,Bachelor,Self-Employed,1,7
+748,36,Female,USA,61337,Home,251.19,Single,High School,Unemployed,19,5
+749,37,Male,Canada,35482,Electronics,105.55,Married,PhD,Employed,5,3
+750,35,Male,Canada,95333,Electronics,329.53,Married,Master,Self-Employed,7,9
+751,64,Female,Canada,80952,Clothing,392.65,Divorced,PhD,Unemployed,19,6
+752,58,Male,Canada,35463,Clothing,397.82,Single,Master,Employed,5,1
+753,66,Male,USA,34648,Toys,305.21,Divorced,Bachelor,Self-Employed,17,5
+754,31,Female,USA,63623,Books,260.7,Married,Master,Unemployed,8,7
+755,32,Male,USA,89156,Electronics,39.89,Married,High School,Self-Employed,1,4
+756,48,Female,USA,65634,Books,151.04,Divorced,High School,Unemployed,2,8
+757,18,Female,USA,74602,Toys,55.7,Divorced,High School,Unemployed,15,10
+758,20,Female,USA,79334,Electronics,482.27,Divorced,Master,Self-Employed,18,5
+759,33,Male,USA,98648,Electronics,76.19,Single,High School,Self-Employed,11,9
+760,40,Male,Canada,52054,Books,84.37,Married,High School,Unemployed,10,9
+761,28,Male,USA,52207,Home,445.89,Divorced,High School,Employed,4,9
+762,29,Female,USA,51386,Clothing,472.52,Married,Bachelor,Self-Employed,5,1
+763,27,Male,Canada,89518,Home,385.26,Single,Master,Unemployed,4,2
+764,49,Female,USA,82781,Books,12.65,Single,Master,Unemployed,13,3
+765,33,Female,USA,82780,Clothing,10.66,Single,PhD,Employed,13,4
+766,25,Male,Canada,91440,Home,195.27,Single,Master,Employed,18,10
+767,55,Female,USA,74199,Clothing,80.26,Married,Bachelor,Employed,2,9
+768,29,Male,USA,91035,Electronics,19.01,Single,Master,Self-Employed,16,10
+769,41,Male,USA,38210,Home,237.39,Single,Bachelor,Unemployed,1,6
+770,45,Male,Canada,74363,Clothing,472.1,Divorced,Bachelor,Unemployed,19,1
+771,25,Male,USA,90348,Clothing,168.67,Single,Master,Unemployed,9,9
+772,45,Male,USA,85284,Clothing,333.96,Divorced,PhD,Employed,3,6
+773,53,Female,Canada,98847,Home,329.6,Single,High School,Unemployed,7,4
+774,43,Female,USA,52432,Toys,133.03,Single,High School,Self-Employed,10,4
+775,25,Female,Canada,94089,Home,328.71,Divorced,Master,Employed,1,3
+776,67,Male,Canada,85398,Books,114.04,Single,Master,Employed,10,7
+777,45,Male,USA,33321,Home,69.78,Married,Bachelor,Employed,9,3
+778,45,Male,Canada,67383,Clothing,353.68,Married,Master,Employed,15,2
+779,54,Female,Canada,82893,Electronics,65.59,Single,Bachelor,Self-Employed,15,10
+780,58,Male,USA,65820,Home,498.49,Married,PhD,Unemployed,3,8
+781,53,Female,Canada,96262,Home,99.89,Divorced,Master,Self-Employed,5,4
+782,44,Female,Canada,33760,Clothing,301.13,Single,High School,Unemployed,9,8
+783,34,Male,USA,52190,Electronics,211.57,Single,High School,Self-Employed,9,1
+784,26,Male,USA,97411,Electronics,71.93,Divorced,Master,Employed,7,5
+785,50,Female,USA,53377,Books,23.64,Divorced,Bachelor,Employed,12,9
+786,37,Male,Canada,76737,Home,315.14,Divorced,High School,Self-Employed,9,1
+787,30,Female,USA,99569,Electronics,405.31,Single,Bachelor,Self-Employed,6,4
+788,45,Male,Canada,68211,Electronics,422.59,Divorced,Master,Unemployed,2,6
+789,65,Male,Canada,33744,Toys,246.53,Divorced,Master,Self-Employed,9,10
+790,46,Female,Canada,54995,Toys,390.95,Married,High School,Self-Employed,17,8
+791,30,Male,Canada,46977,Electronics,339.7,Married,Master,Unemployed,1,3
+792,63,Female,Canada,64542,Books,364.88,Single,PhD,Unemployed,19,5
+793,52,Male,Canada,40651,Electronics,251.37,Married,PhD,Unemployed,6,7
+794,23,Female,Canada,46715,Clothing,320.37,Married,High School,Self-Employed,5,1
+795,35,Female,USA,74409,Home,404.71,Divorced,PhD,Unemployed,2,7
+796,68,Male,USA,54306,Books,204.96,Divorced,Bachelor,Employed,9,8
+797,22,Female,Canada,49086,Clothing,404.93,Married,High School,Employed,14,8
+798,64,Male,Canada,44376,Books,300.09,Married,High School,Employed,4,9
+799,42,Male,USA,91350,Clothing,91.29,Married,Bachelor,Self-Employed,4,6
+800,19,Male,Canada,66636,Home,22.1,Single,PhD,Employed,15,6
+801,27,Female,USA,81649,Home,187.75,Single,PhD,Self-Employed,8,2
+802,47,Female,USA,64610,Toys,277.88,Single,PhD,Self-Employed,4,3
+803,67,Male,USA,40058,Clothing,421.51,Married,High School,Employed,16,4
+804,62,Male,Canada,94200,Toys,72.47,Married,High School,Unemployed,4,4
+805,22,Female,Canada,76619,Clothing,402.1,Single,PhD,Self-Employed,16,8
+806,50,Male,USA,47154,Toys,432.87,Single,Master,Employed,12,1
+807,18,Male,USA,49539,Home,83.84,Married,PhD,Self-Employed,16,10
+808,35,Female,USA,90058,Books,427.28,Divorced,Bachelor,Unemployed,19,4
+809,49,Male,USA,92068,Toys,495.81,Single,High School,Unemployed,8,4
+810,64,Female,USA,60373,Clothing,366.15,Married,Bachelor,Employed,6,1
+811,66,Male,Canada,63154,Clothing,394.54,Married,Bachelor,Self-Employed,10,3
+812,28,Female,USA,36031,Home,497.26,Divorced,High School,Self-Employed,5,5
+813,38,Male,Canada,52785,Clothing,306.69,Married,Master,Self-Employed,18,6
+814,43,Male,USA,58669,Electronics,160.86,Married,PhD,Self-Employed,10,9
+815,42,Female,Canada,32282,Books,420.39,Single,Bachelor,Employed,10,9
+816,39,Male,Canada,64624,Toys,311.1,Single,High School,Unemployed,7,9
+817,44,Female,Canada,78438,Books,294.79,Divorced,Bachelor,Employed,18,1
+818,66,Male,Canada,97534,Home,134.28,Divorced,PhD,Self-Employed,1,9
+819,30,Female,Canada,61705,Toys,380.6,Married,Master,Self-Employed,7,8
+820,50,Female,Canada,68244,Toys,50.02,Single,Master,Unemployed,1,2
+821,51,Female,USA,67437,Electronics,462.9,Divorced,Master,Self-Employed,15,1
+822,58,Female,Canada,80583,Home,169.65,Divorced,High School,Employed,4,1
+823,52,Male,USA,68392,Clothing,72.61,Divorced,High School,Employed,10,6
+824,18,Male,Canada,37461,Electronics,226.76,Married,Master,Unemployed,9,9
+825,38,Female,Canada,40516,Electronics,30.81,Single,PhD,Employed,2,7
+826,65,Female,USA,47514,Books,345.47,Divorced,PhD,Employed,14,5
+827,23,Female,Canada,66268,Books,452.33,Single,High School,Employed,16,2
+828,45,Male,USA,66788,Books,420.26,Divorced,Master,Employed,1,1
+829,34,Male,USA,91049,Electronics,72.41,Divorced,PhD,Self-Employed,2,2
+830,22,Male,USA,92493,Clothing,71.87,Single,PhD,Employed,7,1
+831,48,Male,USA,66027,Toys,408.58,Single,PhD,Unemployed,10,3
+832,22,Female,Canada,72849,Books,462.88,Single,High School,Unemployed,1,6
+833,55,Female,Canada,47858,Clothing,235.73,Married,Master,Employed,13,8
+834,20,Female,USA,82395,Home,254.5,Divorced,Bachelor,Unemployed,1,3
+835,40,Male,Canada,69758,Books,165.95,Married,Master,Employed,5,10
+836,54,Male,Canada,84312,Toys,448.19,Single,Master,Unemployed,16,9
+837,54,Male,USA,98670,Home,326.0,Divorced,High School,Unemployed,15,10
+838,27,Female,Canada,45434,Home,151.24,Married,PhD,Employed,17,5
+839,27,Female,USA,94047,Toys,156.4,Divorced,PhD,Employed,16,7
+840,36,Male,USA,77775,Books,446.69,Married,High School,Self-Employed,13,8
+841,34,Female,Canada,96677,Electronics,16.68,Single,High School,Employed,11,3
+842,38,Male,Canada,75734,Toys,168.14,Married,High School,Employed,17,2
+843,31,Male,Canada,70603,Toys,281.63,Divorced,High School,Self-Employed,17,2
+844,26,Female,USA,98803,Toys,82.63,Divorced,High School,Employed,2,5
+845,63,Male,USA,69332,Home,55.13,Divorced,Bachelor,Employed,13,1
+846,18,Female,Canada,51312,Clothing,409.49,Divorced,Master,Self-Employed,14,2
+847,68,Male,Canada,74179,Electronics,448.26,Single,Master,Employed,11,9
+848,62,Female,Canada,70379,Books,413.57,Married,Master,Employed,10,7
+849,30,Female,Canada,47297,Books,450.41,Single,PhD,Self-Employed,3,6
+850,21,Female,USA,32011,Clothing,281.02,Single,Bachelor,Self-Employed,17,9
+851,18,Male,Canada,74014,Toys,408.01,Single,Master,Unemployed,15,7
+852,66,Male,USA,41738,Electronics,198.18,Divorced,PhD,Employed,9,5
+853,57,Female,USA,77498,Books,336.47,Divorced,Bachelor,Unemployed,10,9
+854,49,Female,Canada,41120,Books,494.53,Divorced,Bachelor,Unemployed,8,6
+855,51,Male,Canada,38767,Toys,120.61,Married,PhD,Self-Employed,13,6
+856,45,Male,Canada,52852,Clothing,201.05,Divorced,Bachelor,Employed,18,4
+857,48,Male,USA,30929,Electronics,245.22,Married,PhD,Employed,5,1
+858,25,Female,Canada,47438,Clothing,77.63,Divorced,Master,Self-Employed,6,5
+859,56,Male,Canada,78515,Clothing,49.71,Divorced,PhD,Unemployed,17,9
+860,43,Male,USA,35744,Electronics,416.56,Single,Bachelor,Self-Employed,11,8
+861,51,Female,Canada,72417,Electronics,488.63,Single,Master,Employed,16,8
+862,20,Male,USA,37069,Books,208.32,Single,Master,Self-Employed,9,5
+863,67,Male,Canada,72359,Books,52.95,Married,High School,Employed,2,9
+864,29,Male,USA,49799,Electronics,42.25,Married,High School,Unemployed,5,3
+865,18,Female,Canada,37597,Home,446.75,Divorced,Bachelor,Employed,1,3
+866,61,Female,Canada,77093,Books,237.27,Married,PhD,Unemployed,4,1
+867,22,Female,USA,67226,Home,166.81,Divorced,PhD,Unemployed,4,9
+868,47,Female,USA,56417,Electronics,243.47,Married,Bachelor,Employed,3,6
+869,47,Female,Canada,48693,Books,165.97,Married,Master,Employed,9,2
+870,34,Female,USA,83161,Clothing,249.63,Married,Bachelor,Unemployed,12,8
+871,65,Female,USA,32169,Electronics,431.18,Single,Bachelor,Self-Employed,10,9
+872,64,Male,USA,52052,Toys,300.23,Married,Master,Employed,2,9
+873,40,Male,USA,38036,Home,350.38,Single,PhD,Unemployed,11,2
+874,32,Female,Canada,61778,Electronics,188.69,Single,Bachelor,Unemployed,10,2
+875,54,Male,Canada,57734,Electronics,371.87,Married,PhD,Self-Employed,6,7
+876,38,Male,USA,53173,Books,336.64,Divorced,Bachelor,Employed,18,4
+877,31,Female,USA,60403,Books,68.59,Divorced,Master,Unemployed,2,1
+878,19,Male,USA,96321,Books,290.59,Divorced,Master,Self-Employed,2,8
+879,28,Male,USA,36344,Toys,135.8,Married,High School,Unemployed,10,2
+880,68,Male,Canada,48800,Books,404.01,Divorced,Master,Employed,16,3
+881,56,Male,Canada,55372,Electronics,218.71,Single,High School,Self-Employed,12,5
+882,55,Male,USA,91516,Books,497.4,Divorced,Bachelor,Unemployed,1,3
+883,51,Female,USA,50538,Clothing,55.33,Married,PhD,Self-Employed,8,7
+884,55,Female,USA,93918,Books,392.37,Divorced,Master,Employed,16,7
+885,67,Female,Canada,44973,Toys,340.11,Single,Master,Self-Employed,18,2
+886,51,Male,USA,89500,Clothing,386.07,Married,Master,Employed,13,7
+887,35,Female,Canada,66575,Electronics,160.69,Divorced,Bachelor,Unemployed,15,6
+888,47,Male,USA,72261,Electronics,251.11,Married,High School,Employed,12,10
+889,32,Male,Canada,57716,Home,400.29,Married,Bachelor,Unemployed,8,9
+890,44,Male,USA,33236,Clothing,123.95,Married,PhD,Unemployed,10,9
+891,68,Male,Canada,45848,Home,120.76,Divorced,Bachelor,Employed,14,2
+892,51,Female,USA,32352,Clothing,280.01,Married,PhD,Unemployed,5,7
+893,69,Female,USA,31932,Clothing,266.55,Divorced,Master,Self-Employed,18,5
+894,55,Male,USA,38556,Toys,148.31,Single,PhD,Unemployed,19,6
+895,50,Female,Canada,35498,Home,156.06,Divorced,PhD,Employed,15,1
+896,41,Male,USA,80098,Toys,146.14,Single,High School,Self-Employed,6,7
+897,32,Female,Canada,94386,Clothing,388.04,Divorced,PhD,Self-Employed,11,6
+898,47,Female,Canada,39569,Electronics,329.43,Married,PhD,Unemployed,11,4
+899,59,Male,USA,86882,Clothing,417.88,Divorced,Bachelor,Unemployed,18,1
+900,68,Female,USA,30340,Toys,487.98,Married,Master,Employed,18,9
+901,34,Male,USA,73949,Home,242.34,Single,Bachelor,Self-Employed,10,4
+902,22,Female,Canada,92443,Home,42.68,Divorced,Bachelor,Employed,2,2
+903,46,Male,USA,30138,Toys,33.57,Married,Master,Unemployed,9,8
+904,21,Male,Canada,30358,Home,154.88,Single,Master,Self-Employed,14,2
+905,27,Female,Canada,60654,Books,466.95,Single,PhD,Employed,19,5
+906,34,Female,USA,55879,Electronics,266.37,Divorced,PhD,Employed,10,6
+907,27,Male,USA,85778,Electronics,143.18,Single,High School,Employed,4,8
+908,34,Female,USA,67772,Electronics,205.59,Married,Bachelor,Employed,6,1
+909,37,Female,USA,88478,Home,303.31,Single,Master,Employed,14,1
+910,41,Male,USA,94353,Home,329.95,Single,PhD,Self-Employed,4,4
+911,22,Male,USA,56762,Clothing,85.42,Married,Master,Employed,15,5
+912,51,Female,Canada,43283,Clothing,488.75,Single,PhD,Self-Employed,16,9
+913,23,Male,Canada,93922,Electronics,276.94,Single,High School,Employed,7,7
+914,19,Male,Canada,69420,Books,76.49,Single,High School,Unemployed,17,7
+915,30,Male,USA,85568,Clothing,447.88,Single,Master,Unemployed,19,8
+916,60,Female,Canada,50219,Clothing,46.57,Married,High School,Employed,19,5
+917,60,Female,Canada,87169,Home,454.79,Single,Master,Unemployed,17,5
+918,65,Male,Canada,76840,Books,498.32,Married,PhD,Self-Employed,6,1
+919,28,Female,Canada,74695,Electronics,353.21,Single,Bachelor,Employed,11,9
+920,68,Male,Canada,88342,Clothing,387.52,Single,High School,Self-Employed,16,6
+921,64,Female,USA,48951,Books,175.28,Single,PhD,Employed,8,9
+922,40,Male,USA,31307,Books,471.37,Single,Bachelor,Unemployed,11,3
+923,33,Male,Canada,65428,Electronics,269.56,Married,Bachelor,Self-Employed,7,5
+924,48,Female,Canada,68975,Books,368.87,Married,Bachelor,Unemployed,19,2
+925,28,Male,Canada,31140,Books,462.81,Married,PhD,Unemployed,10,10
+926,33,Female,USA,54842,Books,487.84,Divorced,PhD,Employed,9,5
+927,25,Female,USA,56421,Clothing,418.27,Single,Master,Self-Employed,4,8
+928,21,Male,Canada,31708,Electronics,158.48,Single,Bachelor,Unemployed,15,2
+929,57,Male,USA,33630,Books,483.61,Married,Bachelor,Employed,13,8
+930,21,Female,USA,49595,Books,317.78,Divorced,Bachelor,Employed,2,4
+931,42,Male,Canada,58308,Clothing,466.01,Single,Master,Employed,2,10
+932,20,Male,USA,74789,Electronics,341.29,Married,Bachelor,Unemployed,16,10
+933,49,Male,USA,85690,Home,160.55,Single,PhD,Employed,9,1
+934,20,Male,Canada,56086,Clothing,191.31,Single,Bachelor,Self-Employed,13,5
+935,44,Male,USA,46859,Electronics,279.73,Married,High School,Self-Employed,3,1
+936,46,Female,USA,37684,Books,397.11,Married,PhD,Unemployed,9,7
+937,49,Female,Canada,31207,Electronics,165.81,Single,Master,Self-Employed,13,8
+938,67,Male,USA,76099,Electronics,294.07,Single,Bachelor,Employed,2,3
+939,68,Male,USA,97496,Electronics,179.36,Married,High School,Unemployed,8,3
+940,36,Male,Canada,96093,Home,409.73,Single,Master,Employed,9,7
+941,38,Female,Canada,59689,Electronics,238.7,Single,Master,Unemployed,16,4
+942,22,Male,Canada,78651,Home,47.59,Married,PhD,Unemployed,2,3
+943,35,Female,USA,43893,Books,91.37,Single,Master,Employed,6,8
+944,45,Female,Canada,96418,Home,39.94,Single,Master,Self-Employed,8,3
+945,59,Female,USA,90011,Books,254.66,Divorced,Master,Self-Employed,5,7
+946,39,Male,Canada,68635,Books,62.11,Married,Master,Unemployed,9,2
+947,38,Female,USA,86115,Home,65.93,Divorced,Bachelor,Employed,1,1
+948,23,Male,Canada,88954,Clothing,471.11,Divorced,Bachelor,Employed,9,6
+949,18,Female,Canada,58064,Toys,437.6,Divorced,Bachelor,Unemployed,10,8
+950,22,Male,Canada,32454,Electronics,231.52,Single,Bachelor,Self-Employed,4,1
+951,58,Female,Canada,50878,Toys,493.04,Single,High School,Employed,3,10
+952,29,Male,USA,81098,Electronics,10.09,Divorced,Bachelor,Self-Employed,10,9
+953,43,Female,Canada,92154,Electronics,310.85,Divorced,Master,Self-Employed,15,3
+954,63,Male,Canada,42991,Books,312.05,Divorced,Bachelor,Unemployed,11,3
+955,51,Male,USA,98344,Electronics,234.15,Single,Bachelor,Unemployed,14,4
+956,66,Male,Canada,66593,Electronics,204.5,Divorced,PhD,Self-Employed,6,1
+957,31,Male,USA,66304,Home,233.14,Divorced,Master,Employed,12,9
+958,43,Female,Canada,60386,Toys,213.33,Married,Bachelor,Employed,13,3
+959,62,Female,Canada,85220,Home,367.94,Married,Bachelor,Unemployed,17,10
+960,44,Male,Canada,99338,Electronics,76.32,Single,Bachelor,Self-Employed,16,4
+961,26,Female,USA,51083,Books,106.84,Married,High School,Employed,3,1
+962,43,Male,Canada,48354,Home,98.45,Married,Bachelor,Employed,2,4
+963,64,Male,Canada,52190,Home,138.61,Married,PhD,Unemployed,11,1
+964,39,Female,Canada,36142,Clothing,267.38,Single,Master,Self-Employed,9,5
+965,64,Male,USA,58398,Electronics,64.49,Married,Master,Employed,3,5
+966,47,Male,USA,81971,Books,435.4,Single,Bachelor,Unemployed,18,7
+967,60,Female,Canada,71862,Home,155.71,Divorced,Bachelor,Employed,15,8
+968,65,Male,USA,83410,Home,89.64,Married,Bachelor,Employed,14,4
+969,34,Male,Canada,49503,Books,341.05,Single,Master,Employed,2,7
+970,43,Male,Canada,78456,Electronics,28.66,Married,Master,Unemployed,17,4
+971,53,Male,Canada,38016,Clothing,313.78,Divorced,High School,Self-Employed,8,3
+972,18,Female,Canada,32384,Home,352.12,Single,PhD,Unemployed,10,6
+973,25,Female,Canada,92320,Clothing,115.31,Single,High School,Self-Employed,18,4
+974,66,Female,Canada,45072,Toys,30.56,Single,PhD,Employed,19,3
+975,52,Male,Canada,70510,Electronics,188.19,Divorced,High School,Self-Employed,8,9
+976,69,Male,USA,78933,Toys,58.31,Divorced,Master,Employed,8,5
+977,32,Female,USA,51826,Toys,67.07,Divorced,High School,Employed,3,7
+978,64,Male,USA,98026,Toys,134.59,Single,PhD,Unemployed,3,6
+979,39,Male,USA,55518,Electronics,154.78,Divorced,Bachelor,Employed,12,10
+980,31,Male,USA,54045,Electronics,269.69,Married,PhD,Unemployed,17,5
+981,43,Male,USA,80876,Books,342.41,Divorced,Bachelor,Self-Employed,4,7
+982,45,Female,USA,81919,Clothing,300.46,Single,Master,Self-Employed,17,6
+983,40,Female,Canada,57103,Clothing,82.7,Married,PhD,Employed,14,10
+984,31,Female,Canada,66188,Books,94.32,Divorced,High School,Unemployed,19,2
+985,41,Male,Canada,35845,Books,440.6,Married,PhD,Employed,9,3
+986,19,Female,Canada,66674,Toys,283.59,Married,Bachelor,Unemployed,12,2
+987,62,Female,USA,49337,Books,436.27,Single,Master,Unemployed,5,3
+988,43,Male,USA,52313,Home,192.06,Married,High School,Unemployed,11,1
+989,31,Male,Canada,56943,Clothing,311.06,Married,PhD,Self-Employed,3,8
+990,68,Female,Canada,30276,Books,266.6,Single,Bachelor,Unemployed,15,6
+991,24,Female,USA,81151,Home,166.37,Single,High School,Self-Employed,14,2
+992,20,Female,Canada,47611,Home,240.26,Single,Master,Unemployed,11,8
+993,64,Female,Canada,41944,Home,256.22,Married,High School,Self-Employed,8,6
+994,40,Male,Canada,82887,Home,108.38,Married,Master,Self-Employed,4,7
+995,63,Female,Canada,79847,Toys,164.36,Married,High School,Self-Employed,12,1
+996,60,Female,USA,88653,Home,397.79,Single,PhD,Employed,8,7
+997,64,Male,Canada,86622,Toys,458.74,Divorced,Bachelor,Unemployed,6,3
+998,62,Female,Canada,57810,Toys,186.3,Married,PhD,Employed,15,8
+999,35,Male,USA,40503,Home,160.42,Divorced,PhD,Unemployed,12,6
+1000,55,Male,USA,66976,Clothing,105.65,Single,Master,Unemployed,16,4
