@@ -1,0 +1,13 @@
+prefix=/Users/jeffsantos/Desktop/9DTSR/git/9DTSR/.conda
+exec_prefix=/Users/jeffsantos/Desktop/9DTSR/git/9DTSR/.conda
+libdir=/Users/jeffsantos/Desktop/9DTSR/git/9DTSR/.conda/lib
+sharedlibdir=/Users/jeffsantos/Desktop/9DTSR/git/9DTSR/.conda/lib
+includedir=/Users/jeffsantos/Desktop/9DTSR/git/9DTSR/.conda/include
+
+Name: zlib
+Description: zlib compression library
+Version: 1.2.13
+
+Requires:
+Libs: -L${libdir} -L${sharedlibdir} -lz
+Cflags: -I${includedir}
